@@ -6,9 +6,7 @@ If a word begins with a vowel you just add "way" to the end.
 
 */
 
-
 function translatePigLatin(str) {
-
   var vowel = ['a', 'e', 'i', 'o', 'u'];
   str = str.split(""); // change it to array
   var spliced = ""; //hold spliced letters
