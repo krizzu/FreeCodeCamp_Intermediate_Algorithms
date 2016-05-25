@@ -28,7 +28,7 @@ function sumFibs(end) {
   });
 
   total = tempArr.reduce(function( a, b){ // sum up the array, save it to total
-    return a+b; 
+    return a+b;  
   });
 
   return total;
